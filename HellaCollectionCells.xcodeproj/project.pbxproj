@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		1BCF187B1DA6D7220045E980 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCF187A1DA6D7220045E980 /* AppDelegate.swift */; };
-		1BCF187D1DA6D7220045E980 /* HellaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCF187C1DA6D7220045E980 /* HellaViewController.swift */; };
 		1BCF18801DA6D7220045E980 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BCF187E1DA6D7220045E980 /* Main.storyboard */; };
 		1BCF18821DA6D7220045E980 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BCF18811DA6D7220045E980 /* Assets.xcassets */; };
 		1BCF18851DA6D7220045E980 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BCF18831DA6D7220045E980 /* LaunchScreen.storyboard */; };
+		752844DD1DAC0FD900EA5100 /* FINAL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752844DC1DAC0FD900EA5100 /* FINAL.swift */; };
+		75B0DB941DAADDDF005DB239 /* HellaDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B0DB931DAADDDF005DB239 /* HellaDetailViewController.swift */; };
+		75C17F551DAC06DF002FB2BC /* HellaCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C17F541DAC06DF002FB2BC /* HellaCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1BCF18771DA6D7220045E980 /* HellaCollectionCells.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HellaCollectionCells.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BCF187A1DA6D7220045E980 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1BCF187C1DA6D7220045E980 /* HellaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HellaViewController.swift; sourceTree = "<group>"; };
 		1BCF187F1DA6D7220045E980 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1BCF18811DA6D7220045E980 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1BCF18841DA6D7220045E980 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1BCF18861DA6D7220045E980 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		752844DC1DAC0FD900EA5100 /* FINAL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FINAL.swift; sourceTree = "<group>"; };
+		75B0DB931DAADDDF005DB239 /* HellaDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HellaDetailViewController.swift; sourceTree = "<group>"; };
+		75C17F541DAC06DF002FB2BC /* HellaCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HellaCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				1BCF187A1DA6D7220045E980 /* AppDelegate.swift */,
-				1BCF187C1DA6D7220045E980 /* HellaViewController.swift */,
+				752844DC1DAC0FD900EA5100 /* FINAL.swift */,
+				75B0DB931DAADDDF005DB239 /* HellaDetailViewController.swift */,
+				75C17F541DAC06DF002FB2BC /* HellaCollectionViewCell.swift */,
 				1BCF187E1DA6D7220045E980 /* Main.storyboard */,
 				1BCF18811DA6D7220045E980 /* Assets.xcassets */,
 				1BCF18831DA6D7220045E980 /* LaunchScreen.storyboard */,
@@ -136,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BCF187D1DA6D7220045E980 /* HellaViewController.swift in Sources */,
 				1BCF187B1DA6D7220045E980 /* AppDelegate.swift in Sources */,
+				75C17F551DAC06DF002FB2BC /* HellaCollectionViewCell.swift in Sources */,
+				752844DD1DAC0FD900EA5100 /* FINAL.swift in Sources */,
+				75B0DB941DAADDDF005DB239 /* HellaDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
